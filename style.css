@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial, sans-serif";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body  {
+    background-image: url(pexels-eenesfaruk-12291177.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    border-image: 100%;
+   
+    
+}
+
+#left{
+    width: 100%;
+    height: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+   
+}
+
+#box5{
+    width: 120px;
+    height: 100px;
+   align-content: center;
+ display: flex;
+    font-size: 200%;
+
+    
+ 
+
+}
+
+#box5 img{
+    width: 50px;
+    height: 50px;
+    color: rgb(238, 234, 234);
+    
+}
+
+#box5 h2{
+    color: azure;
+   
+}
+   
+      
+    
+    
+
+
+
+
+#right{
+    width: 100%;
+    height: 200%;
+    background-color: blueviole;
+   
+
+}
+
+.login-box {
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 30%;
+    top:0% ;
+    
+}
+
+.login-box h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.textbox {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    background: #f2f2f2;
+    border: none;
+    outline: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.btn {
+    width: 100%;
+    background: #333;
+    border: none;
+    padding: 10px;
+    cursor:pointer ;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+.social-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-login .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.social-login .btn i {
+    margin-right: 10px;
+}
+
+.social-login .google {
+    background: #0a0000;
+}
+
+.social-login .google:hover {
+    background: #ee0202;
+}
+
+.social-login .apple {
+    background: #000;
+}
+
+.social-login .apple:hover {
+    background: #333;
+}
+
+
+
+
+
+
+
